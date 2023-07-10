@@ -1,5 +1,5 @@
 const Sequelize = require("sequelize");
-const CatModel = require("./cats");
+const CatModel = require("./cats.js");
 
 const setUpDatabase = () => {
 	const connection = new Sequelize(
